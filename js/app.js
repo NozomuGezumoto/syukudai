@@ -33,6 +33,4 @@ changeImg.src = 'images/' + res[num][0] + '.jpg';
 changeImg_2.src = 'images/' + res[num][2] + '.jpg';
 name.textContent = 'チーム',res[num][1];
 name_2.textContent = res[num][3];
-}
-// name_3.textContent = ''
-// }
+  };

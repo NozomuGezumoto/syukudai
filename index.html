@@ -8,21 +8,46 @@
   <link rel = "stylesheet" type = "text / css" href = "http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css" >  <link rel="stylesheet" href="css/style.css">
   <link rel = "stylesheet" type="text / css" href="css/reset.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
   <div class="header">
     <!-- header-left -->
-<div class="header-left">
-  <img src="https://s3.amazonaws.com/lg-vectors/bitmaps/162776/677261.png?logo_version=1">
-  <span class="name">Nozomu Gezumoto</span>
-  </div>
+     <div class="header-left">
+       <img src="https://s3.amazonaws.com/lg-vectors/bitmaps/162776/677261.png?logo_version=1">
+       <span class="name">Nozomu Gezumoto</span>
+     </div>
   <!-- header-right -->
-  <div class="header-right">
-    <div><a href="index.html">My Profile</a></div>
-    <div><a href="#list">やりたい事リスト</a></div>
-    <div><a href="uranai.html">占い</a></div>
-  </div>
-  </div>
+   <div class="header-right">
+     <!-- <div id="btn">
+      <span class="fa fa-bars" title="menu"></span>
+     </div>
+     <nav id="menu">
+       <ul>
+         <li><a href="index.html">My Profile</a></li>
+         <li><a href="#list">やりたい事リスト</a></li>
+         <li><a href="uranai.html">占い</a></li>
+       </ul>
+      </nav>
+    </div> -->
+      <div class="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span>menu</span>
+      </div>
+       <nav class="globalMenuSp">
+         <ul>
+          <li><a href="index.html">My Profile</a></li>
+          <li><a href="#list">やりたいこと</a></li>
+          <li><a href="uranai.html">占い</a></li>
+          <!-- <li><a href="#">Menu4</a></li>
+          <li><a href="#">Menu5</a></li> -->
+         </ul>
+       </nav>
+       </div>
+    </div>
 <!-- main visual -->
 <div class="main">
 <h1 class="title">Welcome To Mypage</h1>
@@ -42,7 +67,7 @@
 </div>
 <div id="introduce">
   <div>
-    <img class="guitar" src="img/IMG_0243.JPG">
+    <img class="guitar" src="images/IMG_0243.JPG">
   </div>
   <div class="myself">
       <table>
@@ -70,19 +95,19 @@
 </div>
   <div class="dream">
       <div class="pic">
-      <img class="pictures" src="img/boutique-clothes-indoors-264554.jpg" alt="服屋"></a>
+      <img class="pictures" src="images/huku.jpg" alt="服屋"></a>
       <p>服屋</p>
     </div>
         <div class="pic">
-        <img class="pictures" src="img/architecture-bar-bar-cafe-2835547.jpg">
+        <img class="pictures" src="images/bar.jpg">
         <p>cafe</p>
       </div>
       <div class="pic">
-          <img class="pictures" src="img/clouds-fashion-free-103123.jpg">
+          <img class="pictures" src="images/free.jpg">
           <p>Free</p>
         </div>
           <div class="pic">
-          <img class="pictures" src="img/beach-brazilian-fashion-photography-1730871.jpg">
+          <img class="pictures" src="images/tabi.jpg">
           <p>ノマドワーカー</p>
           <div id="lightboxOverlay" class="lightboxOverlay" style="width: 1440px；height: 980px; display: none;"></div>
         </div>
@@ -96,7 +121,6 @@
                 </a>
               <p>Copyright (c) 2019 Nozomu Gezumoto</p>
           </div>
-asdfasdfsdf
-
+          <script src="/js/app2.js"></script>
 </body>
 </html>
